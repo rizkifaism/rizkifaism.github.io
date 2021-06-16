@@ -25,6 +25,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand">Rizki Fais Mubarok</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -265,7 +268,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", { duration: 2, delay: 1.5, text: "College Student | Informatics - Indraprasta University PGRI" });
+      gsap.to(".lead", { duration: 4.5, delay: 1.5, text: "College Student | Informatics - Indraprasta University PGRI" });
       gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
       gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
       gsap.from(".display-4", { duration: 1, y: -50, opacity: 0, delay: 0.5, ease: "back" });
